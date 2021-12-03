@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel src/index.html",
-    "build": "rm -rf dist && parcel src/index.html --public-url https://coderdidit.com/stretchy-office-walk --no-cache"
+    "build": "rm -rf dist && parcel src/index.html --public-url https://coderdidit.com/treasure-stretch --no-cache"
   },
   "author": "Marcin Kuzdowicz",
   "license": "ISC",
