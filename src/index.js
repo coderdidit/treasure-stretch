@@ -84,24 +84,8 @@ const handlePoseToGameEvents = (pose) => {
     const lEVissible = leftEye.score > scoreThreshold
     const REVissible = rightEye.score > scoreThreshold
 
-    const lElbowVissible = leftElbow.score > scoreThreshold
-    const rElbowVissible = rightElbow.score > scoreThreshold
-
-    const lShoulderVissible = leftShoulder.score > scoreThreshold
-    const rShoulderVissible = rightShoulder.score > scoreThreshold
-    const shouldersVisible = lShoulderVissible && rShoulderVissible
-    let visibleShoulders = 0
-    if (lElbowVissible) {
-        visibleShoulders += 1
-    }
-    if (rElbowVissible) {
-        visibleShoulders += 1
-    }
-
-    const shouldersAndElbowsVissible = shouldersVisible && visibleShoulders == 2
-
     const moveSideActivationDist = 8
-    if (shouldersAndElbowsVissible && bothArmsUp) {
+    if (bothArmsUp) {
         return fire
     } else if (noseVissible && lEVissible
         && noseToLeftEyeYdistance < moveSideActivationDist) {

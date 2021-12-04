@@ -3,7 +3,7 @@
 
 const BLAZEPOSE_CONFIG = {
    maxPoses: 1,
-   scoreThreshold: 0.9,
+   scoreThreshold: 0.65,
    runtime: 'mediapipe',
    modelType: 'full',
    solutionPath: `https://cdn.jsdelivr.net/npm/@mediapipe/pose@${mpPose.VERSION}`,
