@@ -1,6 +1,6 @@
 # Treasure Stretch Mini Game 
 
-![Screenshot 2021-11-28 at 22 09 12](https://user-images.githubusercontent.com/86926500/143787953-7b78977d-4efb-459f-830f-3eb17a1e47d0.png)
+![treasure-stretch](https://user-images.githubusercontent.com/86926500/144760419-ded344e9-ca19-4fc8-b96e-7db306fb5c13.gif)
 
 [Paly it here (game is deployed)](https://coderdidit.com/treasure-stretch)
 
